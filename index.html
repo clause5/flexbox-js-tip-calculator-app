@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Tip calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="./styles/styles.css" >
  
 </head>
@@ -19,13 +18,13 @@
         <form id="form-container">
 
           <div id="bill-amount">
-            <legend>Bill</legend>
+            <strong>Bill</strong>
             <input type="number" min="0" value="" name="bill" id="bill" placeholder="0" required="required">
           </div>
           
 
           <div id="tips-container">
-            <legend>Select Tip % </legend>
+            <strong>Select Tip % </strong>
 
              
                 <div >
@@ -54,7 +53,7 @@
           </div>
 
           <div id="number-people">
-            <legend>Number of People</legend>
+            <strong>Number of People</strong>
             <input type="number" min="1" placeholder="0" id="num-people" value="" name="people" required="required">
               
           </div>
@@ -83,8 +82,7 @@
     </div>
   </main>
 
-  
-  <div class="attribution">
+  <div role="contentinfo" class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
