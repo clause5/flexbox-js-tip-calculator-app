@@ -31,7 +31,6 @@ main{
     align-items: center;
     justify-content: space-evenly;
     background-color:hsl(0, 0%, 100%) ;
-
     border-radius: 25px;
 }
 #form-container{
@@ -52,7 +51,9 @@ main{
   justify-content: space-around;
   align-items: center;
   border-radius: 25px;
-
+}
+h1{
+  color: hsl(183, 100%, 15%);
 }
 input[type="number"]{
   padding: 0 10px;
